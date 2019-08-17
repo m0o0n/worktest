@@ -1,0 +1,358 @@
+body, html
+{
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    max-width: 1622px;
+    overflow-x: hidden;
+}
+
+.wrapper
+{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+
+.wrapper_container
+{
+    width: 57%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapp_param
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.name
+{
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.dob
+{
+    border: 1px solid blue;
+    color: blue;
+    padding: 5px;
+    position: relative;
+    font-size: 15px;
+    top: -5px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.dp_date
+{
+    position: relative;
+    padding-right: 45px;
+}
+
+a {text-decoration: none; color: black;}
+a:hover {text-decoration: none; color: black;}
+
+.popularity
+{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    left: -35px;
+}
+
+.popularity div
+{
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+}
+
+.popularity div h4
+{
+    position: relative;
+    margin-right: 7px;
+}
+
+
+
+.date_picker
+{
+    position: relative;
+    display: flex;
+}
+
+.date_picker a
+{
+    align-self: center;
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+.date_picker > div
+{
+    position: relative;
+    margin-right: 25px;
+    
+}
+
+.first_dp
+{
+    position: relative;
+    width: 180px;
+    height: 30px;
+}
+.second_dp
+{
+    position: relative;
+    width: 180px;
+    height: 30px;
+}
+
+
+.page_content
+{
+    background: rgb(248, 248, 248);
+    position: relative;
+    width: 100%;
+    z-index: 200;
+}
+
+.postst_container
+{
+    position: relative;
+    width: 930px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.post
+{
+    position: relative;
+    width: 290px;
+    cursor: pointer;
+    height: 290px;
+    margin-bottom: 30px;
+    margin: 25px auto;
+}
+
+.post::after
+{
+    content: '';
+    background: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    opacity: 0.5;
+    z-index: 400;
+}
+
+.post img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+
+
+.load_more
+{
+    position: relative;
+    width: 125px;
+    height: 30px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.load_more:hover
+{
+    
+    width: 130px;
+    transition: .3s;
+}
+
+.rec
+{
+    height: 25px;
+    width: 35px;
+    position: absolute;
+    float: right;
+    right: 10px;
+    top:  15px;
+    z-index: 300;
+}
+
+.fl_container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.post_flex
+{
+    position: absolute;
+    display: flex;
+    width: 90%;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   top: 170px;
+    z-index: 999;
+}
+
+
+.first_ln
+{
+    margin: 0 auto;
+    position: relative;
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+
+.first_ln a 
+{
+    position: relative;
+     color: white;
+   
+}
+
+.first_ln div 
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.first_ln div i
+{
+    font-size: 17px;
+}
+
+.first_ln div a
+{
+    position: relative;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.first_ln div i:hover
+{
+    color: red;
+    transition: .4s;
+}
+
+/**/
+
+
+.second_ln
+{
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+.second_ln a 
+{
+    position: relative;
+     color: white;
+   
+}
+
+.second_ln div 
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.second_ln div a
+{
+    position: relative;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.second_ln div i
+{
+    font-size: 17px;
+}
+
+.second_ln div i:hover
+{
+    color: red;
+    transition: .4s;
+}
+
+.date
+{
+    position: relative;
+    left: -45px;
+}
+
+
+.heart
+{
+    position: relative;
+    left: -17px;
+}
+
+
+.comment
+{
+    position: relative;
+    left: 45px;
+}
+
+.thitd_ln
+{
+    position: absolute;
+    margin: 0 auto;
+    bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.thitd_ln a
+{
+    color: white;
+    z-index: 999;
+}
+
+.media_wrapper{display: none;}
